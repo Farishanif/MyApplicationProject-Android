@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">MFarishanifW_UAS</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="more">More...</string>
+    <string name="profile">Profile</string>
+    <string name="about">About</string>
+    <string name="Name">Nama Teman</string>
+    <string name="Detail">Deskripsi</string>
+    <string name="nama_dev">Muhammad Farishanif Widyono</string>
+    <string name="judul_penje1">Mengenai Saya</string>
+    <string name="penje_1">Saya salah satu mahasiswa yang sedang mengikuti kegiatan ID Camp indosat ooredo, saya sangat tertarik pada programing mau itu website,android,atau untuk windows. Karena itu, saya sedikit kesulitan dalam menentukkan pilihan pelajaran dari ID Camp indosat ooredo.</string>
+    <string name="judul_penje2">Mengenai Aplikasi ini</string>
+    <string name="penje_2">Aplikasi ini saya buat untuk memenuhi tugas submission dari kelas Dicoding dengan syarat-syarat tertentu yang harus terdapat pada aplikasi ini.</string>
+    <string name="Deskripsi2">farismfw@gmail.com</string>
+    <string name="Deskripsi1">Email Dicoding:</string>
+
+    <!--<string name="app_name">TMJ Reg</string>-->
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="Title">Tentang Aplikasi</string>
+    <string name="Content_text">Aplikasi sederhana ini dibuat untuk memenuhi tugas UAS dari Politeknik Negeri Jakarta, tepatnya untuk mengerjakan tugas UAS dosen saya pak Syamsi</string>
+    <string name="details">details</string>
+    <string name="tanggal_lahir">Tanggal lahir</string>
+    <string name="jenis_kelamin">Jenis Kelamin</string>
+    <string name="title_activity_maps2">Map</string>
+    <string name="title_activity_maps">Map</string>
+
+
+</resources>

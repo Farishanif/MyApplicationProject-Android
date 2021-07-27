@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".LoginActivity"
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TextContent.Black"
+                android:layout_width="162dp"
+                android:layout_height="71dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="8dp"
+                android:text="Profile"
+                android:textColor="@android:color/black"
+                android:textSize="36sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="97dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/pnj"
+                tools:ignore="ContentDescription" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <TextView
+        style="@style/TextContent.Black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="Nama"
+        />
+
+    <TextView
+        style="@style/TextContent.Grey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="20dp"
+        android:text="default"
+        />
+
+    <TextView
+        style="@style/TextContent.Black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="14sp" />
+
+    <TextView
+        style="@style/TextContent.Grey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="20dp"
+        android:text="default"
+        />
+
+    <TextView
+        style="@style/TextContent.Black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textSize="14sp" />
+
+    <TextView
+        style="@style/TextContent.Grey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="20dp"
+        android:text="************"
+        />
+
+
+    <Button
+        android:id="@+id/logOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="LogOut"
+        android:textSize="16sp" />
+
+
+</LinearLayout>

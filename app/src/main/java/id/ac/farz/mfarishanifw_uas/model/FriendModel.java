@@ -1,0 +1,75 @@
+package id.ac.farz.mfarishanifw_uas.model;
+
+public class FriendModel {
+
+    private int id;
+    private String name;
+    private String sex;
+    private String bod;
+    private String detail;
+    private int photo;
+
+
+    public FriendModel(int id, String name, String sex, String bod, String detail) {
+        this.id = id;
+        this.name = name;
+        this.sex = sex;
+        this.bod = bod;
+        this.detail = detail;
+        this.photo = photo;
+    }
+
+
+    public FriendModel(int i, String s, String name, String toString) {
+    }
+
+    public String toString() {
+        return "FriendModel{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", sex=" + sex +
+                ", bod=" + bod +
+                ", detail=" + detail +
+                '}';
+    }
+
+    //Getter dan setter
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getName() { return name; }
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getBod() {
+        return bod;
+    }
+    public void setBod(String bod) {
+        this.bod = bod;
+    }
+
+    public String getSex() {
+        return sex;
+    }
+    public void setSex(String sex) {
+        this.sex = sex;
+    }
+
+    public String getDetail() {
+        return detail;
+    }
+    public void setDetail(String detail) { this.detail = detail; }
+
+    public int getPhoto() {
+        return photo;
+    }
+    public void setPhoto(int photo) {
+        this.photo = photo;
+    }
+}

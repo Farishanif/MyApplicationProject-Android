@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_lfriend"
+        android:name="id.ac.farz.mfarishanifw_uas.sidebar.listfriend.ListFriendFragment"
+        android:label="List Friend"
+        tools:layout="@layout/fragment_list_friend" />
+
+    <fragment
+        android:id="@+id/nav_map"
+        android:name="id.ac.farz.mfarishanifw_uas.sidebar.map.MapFragment"
+        android:label="Map"
+        tools:layout="@layout/fragment_map" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="id.ac.farz.mfarishanifw_uas.sidebar.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="id.ac.farz.mfarishanifw_uas.fragment.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_news"
+        android:name="id.ac.farz.mfarishanifw_uas.fragment.news.NewsFragment"
+        android:label="News"
+        tools:layout="@layout/fragment_news" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="id.ac.farz.mfarishanifw_uas.fragment.profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+
+
+</navigation>

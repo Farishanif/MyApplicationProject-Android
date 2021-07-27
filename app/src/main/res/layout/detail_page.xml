@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/detail_page"
+    android:background="@drawable/background1"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <!--ImageView
+            android:id="@+id/Photo"
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="4dp"
+            android:src="@drawable/apyr"
+            android:scaleType="centerCrop"
+            tools:src="@color/colorAccent"
+            -->
+
+    <TextView
+        style="@style/TextContent.Black"
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="@string/Name"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        style="@style/TextContent.Black"
+        android:id="@+id/BOD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="@string/tanggal_lahir"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        style="@style/TextContent.Black"
+        android:id="@+id/Sex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="@string/jenis_kelamin"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="@android:color/black"/>
+
+
+    <TextView
+        android:id="@+id/Detail"
+        style="@style/TextContent"
+        android:layout_width="match_parent"
+        android:layout_height="243dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:lineSpacingMultiplier="1"
+        android:text="@string/Detail"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+</LinearLayout>

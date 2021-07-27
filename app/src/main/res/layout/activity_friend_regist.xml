@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".HomeActivity"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="Nama"
+        />
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="14sp"
+        android:inputType="text"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="Tanggal Lahir"
+        />
+
+    <EditText
+        android:id="@+id/bod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="14sp"
+        android:inputType="text"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="Jenis Kelamin"
+        />
+
+    <RadioGroup
+        android:id="@+id/opsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio_male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:tag="sex_male"
+            android:text="male" />
+
+        <RadioButton
+            android:id="@+id/radio_female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:tag="sex_female"
+            android:text="female" />
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="Tentang"
+        />
+
+    <EditText
+        android:id="@+id/detail"
+        android:layout_width="match_parent"
+        android:layout_height="143dp"
+        android:layout_marginTop="5dp"
+        android:inputType="text"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/actionSimpan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simpan"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp"
+        />
+
+
+</LinearLayout>
